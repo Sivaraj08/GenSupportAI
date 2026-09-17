@@ -1,0 +1,44 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Python virtual environment & cache
+venv/
+backend/venv/
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Databases & Vector DBs
+chroma_db/
+backend/chroma_db/
+*.db
+*.sqlite3
+gensupport.db
+backend/gensupport.db
+
+# Uploads / Temp files
+uploads/
+backend/uploads/
+$null
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
